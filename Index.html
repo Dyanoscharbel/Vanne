@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOSSIER CLASSIFIÉ : SUJET-01</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+        body {
+            background-color: #0d0d0d;
+            color: #e0e0e0;
+            font-family: 'VT323', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+
+        .container {
+            background-color: #1a1a1a;
+            border: 2px solid #ff0000;
+            border-radius: 5px;
+            padding: 25px;
+            max-width: 700px;
+            width: 100%;
+            box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+            text-align: left;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 2.5em;
+            color: #ff0000;
+            text-shadow: 0 0 5px #ff0000;
+            margin-bottom: 10px;
+            animation: glitch 1.5s infinite;
+        }
+
+        @keyframes glitch {
+            2%, 64% { transform: translate(2px, 0) skew(0.5deg); }
+            4%, 60% { transform: translate(-2px, 0) skew(-0.5deg); }
+            62% { transform: translate(0, 0) skew(5deg); }
+        }
+
+        .subheader {
+            text-align: center;
+            color: #f0f0f0;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            background-color: #333;
+            border: 2px dashed #ff0000;
+            margin: 0 auto 30px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            color: #ff0000;
+        }
+
+        .section-title {
+            color: #ff0000;
+            font-weight: bold;
+            font-size: 1.5em;
+            border-bottom: 1px solid #ff0000;
+            padding-bottom: 5px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        li::before {
+            content: '>';
+            color: #ff0000;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .conclusion {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #ff0000;
+            background-color: rgba(255, 0, 0, 0.1);
+            color: #f0f0f0;
+        }
+
+        .conclusion-title {
+            font-weight: bold;
+            color: #ff0000;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">! ALERTE !</div>
+        <div class="subheader">DOSSIER CLASSIFIÉ - ACCÈS RESTREINT</div>
+
+        <div class="profile-pic">
+            <span>IMAGE<br>NON<br>TROUVÉE</span>
+        </div>
+
+        <div class="section-title">IDENTIFICATION</div>
+        <ul>
+            <li><strong>SUJET-01 // ALIAS :</strong> "Le Femboy de Service"</li>
+            <li><strong>NIVEAU DE MENACE :</strong> INSUPPORTABLE (mais pas très dangereux)</li>
+            <li><strong>SIGNES DISTINCTIFS :</strong> Donne des conseils non sollicités avec un emoji de chien battu.</li>
+        </ul>
+
+        <div class="section-title">ANALYSE COMPORTEMENTALE (VANNES)</div>
+        <ul>
+            <li>Émet des platitudes avec la conviction d'un prophète mais le QI d'un grille-pain.</li>
+            <li>Compétence principale : Transformer l'oxygène en soupirs exaspérés chez son entourage.</li>
+            <li>Style vestimentaire : "J'ai laissé un enfant de 5 ans choisir mes fringues dans le noir".</li>
+            <li>Tente de masquer un vide intellectuel abyssal par des opinions tranchées sur tout et n'importe quoi.</li>
+            <li>Statut 'Femboy' : Confirmé. Tente de compenser un manque de caractère par une personnalité empruntée sur TikTok. Échec critique.</li>
+        </ul>
+
+        <div class="conclusion">
+            <span class="conclusion-title">[ RECOMMANDATION FINALE ]</span>
+            Le sujet présente un danger nul pour la sécurité physique mais un risque maximal pour la santé mentale. La meilleure procédure est d'ignorer ses tentatives de communication jusqu'à ce qu'il retourne dans l'oubli d'où il vient.
+            <br><strong>Le silence est la meilleure réponse à la médiocrité.</strong>
+        </div>
+
+    </div>
+
+</body>
+</html>
